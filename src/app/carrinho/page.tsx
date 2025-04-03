@@ -1,9 +1,9 @@
 import Pagina from '@/components/template/pagina';
 
-export default function Home() {
+export default function PaginaCarrinho() {
   return (
     <Pagina>
-      <div>Home</div>
+      <div>carrinho</div>
     </Pagina>
   );
 }
