@@ -2,29 +2,23 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   position: relative;
+`;
+
+export const CircleCart = styled.div`
+  background-color: red;
+  position: absolute;
+  top: -5px;
+  right: -10px;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  > div {
-    top: -5px;
-    right: -5px;
-    position: absolute;
+  width: 22px;
+  height: 22px;
 
-    padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 18px;
-    height: 18px;
-
-    font-size: 10px;
-    font-weight: bold;
-
-    background-color: #ef4444;
-    border-radius: 50%;
-  }
+  border-radius: 50%;
 `;

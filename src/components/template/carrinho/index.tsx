@@ -2,15 +2,14 @@
 
 import { IconShoppingCart } from '@tabler/icons-react';
 import Link from 'next/link';
-
-import { Container } from './styles';
+import { Container, CircleCart } from './styles';
 
 export default function Carrinho() {
   return (
     <Link href="/carrinho">
       <Container>
         <IconShoppingCart size={32} stroke={1} />
-        <div>10</div>
+        <CircleCart>99</CircleCart>
       </Container>
     </Link>
   );

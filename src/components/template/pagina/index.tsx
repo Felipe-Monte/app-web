@@ -1,6 +1,7 @@
-"use client"
+
+'use client'
 import Cabecalho from '../cabecalho';
-import { Container } from './styles';
+import { Wrapper, Container } from './styles'
 
 export interface PaginaProps {
   children: React.ReactNode;
@@ -9,9 +10,9 @@ export interface PaginaProps {
 
 export default function Pagina(props: PaginaProps) {
   return (
-    <div>
+    <Wrapper>
       <Cabecalho />
       <Container>{props.children}</Container>
-    </div>
+    </Wrapper>
   );
 }
